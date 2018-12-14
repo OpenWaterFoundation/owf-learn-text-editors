@@ -1,0 +1,23 @@
+" Turn colored formatting on
+syntax on
+
+" Color scheme
+" To pick from available list do:
+" :colorscheme _space_ Tab
+" Reasonable options seem to be:  koehler, murphy, elford
+colorscheme koehler
+
+" Ignore case when searching
+set ic
+
+" Turn on spell-checker
+set spell
+
+" Displays tabs as >-, where first character indicates tab and following - fill in tab space
+" see:  https://vi.stackexchange.com/questions/422/displaying-tabs-as-characters
+set list
+set listchars=tab:>-
+
+" Turn off audio bell and instead use visual mode.
+" - otherwise beeping can be irritating
+set vb
