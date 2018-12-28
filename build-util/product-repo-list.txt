@@ -1,0 +1,3 @@
+# Repositories that comprise the learning resources
+# - assumes that local folder name will match the repository name
+owf-learn-text-editors
