@@ -1,5 +1,9 @@
 " Turn colored formatting on
+" - does not always work - sometimes gets confused?
 syntax on
+
+" Turn on spell-checker
+set spell
 
 " Color scheme
 " To pick from available list do:
@@ -7,11 +11,16 @@ syntax on
 " Reasonable options seem to be:  koehler, murphy, elford
 colorscheme koehler
 
+" Using the colorscheme with spellchecking results in highlights with
+" pink text on red background, which is hard to read, so change the highlight color.
+" See:  https://stackoverflow.com/questions/11279456/how-to-change-the-color-of-highlighted-misspelled-word
+" Color table:  https://github.com/guns/xterm-color-table.vim
+" Use white text on red background for misspelled words, but shows white on black.
+" This seems to be sensitive to order so put this after 'colorscheme'.
+hi SpellBad ctermfg=015 ctermbg=009 cterm=bold guifg=#000000 guibg=#ff0000 gui=bold
+
 " Ignore case when searching
 set ic
-
-" Turn on spell-checker
-set spell
 
 " Displays tabs as >-, where first character indicates tab and following - fill in tab space
 " see:  https://vi.stackexchange.com/questions/422/displaying-tabs-as-characters

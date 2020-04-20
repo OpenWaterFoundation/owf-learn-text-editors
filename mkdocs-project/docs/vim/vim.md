@@ -4,6 +4,8 @@
 * [Resources](#resources)
 * [Use](#use)
 * [Configuration](#configuration)
+* [Emulation in Software](#emulation-in-software)
+* [Troubleshooting](#troubleshooting)
 
 --------------------------
 
@@ -11,7 +13,8 @@
 
 The free and open source `vim` editor provides both a command-line editor (`vim`) and graphical user interface editor (`gvim`).
 The `vim` editor is often distributed by default with Linux-like operating systems such
-as Git Bash and provides a way to edit files on remote systems when the graphical user interface cannot be run.
+as Git Bash and provides a way to edit files on remote systems when a graphical user interface cannot be run.
+`vim` can be very efficient to use for users who are adept at typing by touch given the minimal use of `Ctrl`, `Alt`, etc.
 
 On Cygwin, the graphical user interface can be started only after setting the `DISPLAY` environment variable to
 a proper value and running the X Windows Server:
@@ -57,4 +60,22 @@ For example, the following sets ignore case when searching:
 
 To ensure that such configuration is in effect each time that `vim` is started,
 configuration settings can be added to a `.vimrc` file in the user's home folder.
-[See the example configuration file](vimrc.txt).
+[See the example `.vimrc` configuration file](vimrc.txt) for useful configuration settings..
+
+## Emulation in Software ##
+
+vim emulators that mimic vim behavior are available in software tools, including:
+
+* [Atom Editor](../atom/atom.md)
+* [Eclipse IDE](https://www.eclipse.org/ide/)
+	+ use [VRapper](http://vrapper.sourceforge.net/home/) or newer options
+* [Visual Studio Code](../vs-code/vs-code.md)
+
+## Troubleshooting ##
+
+The following are some common issues.
+
+| **Issue** | **Possible Solution** |
+| -- | -- |
+| Keyboard freezes in vim session. | This can occur if `Ctrl-s` was accidentally entered.  Use `Ctrl-q` to return to normal mode. |
+| Pasting content from Windows command prompt window or other source causes control characters to show and cannot edit normally. | [This is an open issue](https://github.com/OpenWaterFoundation/owf-learn-text-editors/issues/2) for this documentation. |
