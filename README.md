@@ -19,7 +19,7 @@ mkdocs-project/       Typical MkDocs project for this documentation.
   mkdocs.yml          MkDocs configuration file for website.
   docs/               Folder containing source Markdown and other files for website.
   site/               Folder created by MkDocs containing the static website - ignored using .gitignore.
-
+z-local-notes/        Use for local notes that are not committed to the repository.
 ```
 
 ## Development Environment ##
@@ -52,13 +52,6 @@ Contribute to the documentation as follows:
 
 This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
 
-## Contributors ##
-
-Steve Malers, Open Water Foundation (@smalers)
-
 ## Release Notes ##
 
-The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
-if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
-
-* 2018-12-13 - initial content
+See the [GitHub issues for issues](https://github.com/OpenWaterFoundation/owf-learn-text-editors/issues).

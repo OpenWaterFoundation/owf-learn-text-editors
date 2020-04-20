@@ -12,13 +12,13 @@ be the most useful tools for a software developer.
 	+ [Remote Access](#remote-access)
 	+ [End of Line](#end-of-line)
 * Editors (links to other pages)
-	+ [Atom (from GitHub)](atom/atom)
-	+ [Notepad (from Windows)](notepad/notepad)
-	+ [`notepad++`](notepad-plusplus/notepad-plusplus)
-	+ [Sublime](sublime/sublime)
-	+ [Textpad](textpad/textpad)
-	+ [UltraEdit](ultraedit/ultraedit)
-	+ [`vim`](vim/vim)
+	+ [Atom (from GitHub)](atom/atom.md)
+	+ [Notepad (from Windows)](notepad/notepad.md)
+	+ [`notepad++`](notepad-plusplus/notepad-plusplus.md)
+	+ [Sublime](sublime/sublime.md)
+	+ [Textpad](textpad/textpad.md)
+	+ [UltraEdit](ultraedit/ultraedit.md)
+	+ [`vim`](vim/vim.md)
 
 --------------------------
 
@@ -62,7 +62,7 @@ It may be necessary to edit a file on a remote system.
 In this case, there are generally three options:
 
 1. **Command line editor** - Use an editor that runs in a terminal window using character input.
-For example, the [`vim`](vim/vim) editor is available on most Linux-like systems
+For example, the [`vim`](vim/vim.md) editor is available on most Linux-like systems
 and can be run over `ssh` sessions in a terminal window.
 For this reason, at least basic `vim` competence is desirable.
 2. **Windowing environment** - Use an environment that allows graphical editors to be used.
