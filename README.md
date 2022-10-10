@@ -1,9 +1,9 @@
 # owf-learn-text-editors #
 
-This repository contains [Open Water Foundation (OWF)](http://openwaterfoundation.org/)
+This repository contains [Open Water Foundation (OWF)](https://openwaterfoundation.org/)
 learning resources for text editors.
 
-See the deployed OWF [Learn / Text Editors](http://learn.openwaterfoundation.org/owf-learn-text-editors/) documentation.
+See the deployed OWF [Learn / Text Editors](https://learn.openwaterfoundation.org/owf-learn-text-editors/) documentation.
 
 ## Repository Contents ##
 
@@ -50,7 +50,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Release Notes ##
 
